@@ -1,0 +1,27 @@
+{
+  "dependencies" : [ "fmt", {
+    "name" : "fmt",
+    "version>=" : "10.2.1"
+  }, {
+    "name" : "bgfx",
+    "version>=" : "1.122.8595-458"
+  }, {
+    "name" : "nlohmann-json",
+    "version>=" : "3.11.3"
+  }, {
+    "name" : "glfw3",
+    "version>=" : "3.3.9"
+  }, {
+    "name" : "spdlog",
+    "version>=" : "1.13.0"
+  }, {
+    "name" : "cxxopts",
+    "version>=" : "3.1.1"
+  }, {
+    "name" : "gtest",
+    "version>=" : "1.14.0"
+  }, {
+    "name" : "indicators",
+    "version>=" : "2.3"
+  } ]
+}
