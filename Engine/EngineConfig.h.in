@@ -1,1 +1,2 @@
-#cmakedefine PROJECT_NAME ${PROJECT_NAME}
+#pragma once
+#define PROJECT_VERSION ${PROJECT_VERSION}

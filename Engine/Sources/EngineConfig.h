@@ -1,1 +1,0 @@
-#cmakedefine PROJECT_NAME ${PROJECT_NAME}

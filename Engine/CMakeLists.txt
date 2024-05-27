@@ -1,12 +1,14 @@
 cmake_minimum_required(VERSION 3.28)
 
-project(Engine VERSION 0.1)
+project(Engine VERSION ${PROJECT_VERSION})
+
+message("VERSION ${PROJECT_VERSION}")
 
 set(CMAKE_CXX_STANDARD 26)
 set(TARGET Engine)
 set(TARGET_LIB EngineLib)
 
-configure_file(EngineConfig.h.in ${}Sources/EngineConfig.h)
+configure_file(EngineConfig.h.in ${CMAKE_CURRENT_SOURCE_DIR}/Sources/EngineConfig.h)
 
 set(SOURCES Sources/EngineConfig.h)
 
