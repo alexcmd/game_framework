@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.28)
-SET(CMAKE_TOOLCHAIN_FILE,  "$ENV{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake" CACHE STRING "Vcpkg toolchain file")
+#SET(CMAKE_TOOLCHAIN_FILE,  "$ENV{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake" CACHE STRING "Vcpkg toolchain file")
 
-project(game_framework VERSION 0.1 LANGUAGES CXX)
+project(game_framework VERSION 0.1)
 
 set(CMAKE_CXX_STANDARD 26)
 set(GAME_SOURCE_FOLDER Games)

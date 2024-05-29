@@ -23,5 +23,11 @@
   }, {
     "name" : "indicators",
     "version>=" : "2.3"
+  }, {
+    "name" : "vulkan",
+    "version>=" : "2023-12-17"
+  }, {
+    "name" : "vulkan-memory-allocator",
+    "version>=" : "3.0.1#4"
   } ]
 }
